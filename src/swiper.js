@@ -23,34 +23,3 @@ export const heroSwiper = new Swiper(".swiper", {
         prevEl: ".swiper-button-prev",
     },
 });
-
-// export const initNameHeader = () => {
-//     const headerAnimation = {
-//         origin: "top",
-//         distance: "50px",
-//         duration: 1800,
-//         reset: true,
-//     };
-//     ScrollReveal().reveal(".name-header-01", headerAnimation);
-//     ScrollReveal().reveal(".name-header-02", headerAnimation);
-// };
-
-// export const reset = () => {
-//     heroSwiper.on("slideChange", () => {
-//         const headers = document.querySelectorAll(
-//             ".name-header-01",
-//             ".name-header-02"
-//         );
-//         headers.forEach((header) => {
-//             header.style.opacity = 0;
-//             setTimeout(() => {
-//                 ScrollReveal().reveal(header, {
-//                     origin: "top",
-//                     distance: "50px",
-//                     duration: 1800,
-//                     reset: true,
-//                 });
-//             }, 50);
-//         });
-//     });
-// };
