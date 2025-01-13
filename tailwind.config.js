@@ -6,6 +6,18 @@ export default {
         "./node_modules/flowbite/**/*.js",
     ],
     theme: {
+        screens: {
+            // Small Screens (Tablets, 481px - 768px)
+            sm: '480px',
+            // Medium Screens (Large Tablets, 769px - 1024px)
+            md: '768px',
+            // Large Screens (Desktops, 1025px - 1440px)
+            lg: '1024px',
+            // Extra Large Screens (Large Desktops, >1440px)
+            xl: '1280px',
+            // Ultra Wide Screens (>2560px)
+            '2xl': '2560px',
+        },
         container: {
             padding: {
                 DEFAULT: "1rem",

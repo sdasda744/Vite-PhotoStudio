@@ -1,14 +1,13 @@
-
 import createGallery from "./renderImages";
-import sr from "./scrollSmooth";
+import scroll from "./smoothScroll";
+
 import { heroSwiper } from "./swiper";
 
-
 const listener = () => {
-    heroSwiper;
-    sr;
+    heroSwiper();
     createGallery();
-
+    scroll();
+    
 };
 
 export default listener;
